@@ -1,0 +1,10 @@
+.mainBlockContainer {
+  padding: 0rem 1rem 0rem 1rem;
+  min-width: 350px;
+}
+
+.mainBlockContainerUnderName {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}

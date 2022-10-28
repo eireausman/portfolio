@@ -1,0 +1,41 @@
+.headingText {
+  padding: 0em 0em 0em 1em;
+  margin: 0;
+  font-size: 5em;
+  white-space: nowrap;
+}
+
+.indentHeading {
+  margin-left: 150px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .headingText {
+    font-size: 4.5em;
+    padding: 0em 0em 0em 0.2em;
+  }
+  .indentHeading {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .headingText {
+    font-size: 3.5em;
+    padding: 0em 0em 0em 0.1em;
+  }
+  .indentHeading {
+    margin-left: 75px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .headingText {
+    font-size: 2em;
+    padding: 0em 0em 0em 0.1em;
+    white-space: wrap;
+  }
+  .indentHeading {
+    margin-left: 0;
+  }
+}

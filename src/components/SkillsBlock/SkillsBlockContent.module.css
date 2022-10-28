@@ -1,0 +1,44 @@
+.containerBlock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  align-items: center;
+  min-width: 200px;
+  max-width: 600px;
+  padding: 1rem;
+  border-radius: 1em;
+  background-color: transparent;
+  border: 1px solid rgba(249, 243, 243, 0.2);
+}
+
+.containerBlockHeading {
+  min-width: 200px;
+  color: white;
+}
+
+.containerBlock ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  list-style: none;
+  padding: 1em;
+  gap: 1em;
+  margin: 0em 0em 0em 1em;
+  border-radius: 1em;
+}
+
+.containerBlock li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.5em;
+  gap: 0.5em;
+  padding: 0.3em;
+}
+
+.containerBlock img {
+  height: 2em;
+}

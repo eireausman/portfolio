@@ -1,0 +1,16 @@
+.skillsBlockContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0rem 1rem 0rem 1rem;
+  margin-top: 2rem;
+  min-width: 350px;
+  text-align: center;
+}
+
+.headingText {
+  text-align: center;
+  display: block;
+}
