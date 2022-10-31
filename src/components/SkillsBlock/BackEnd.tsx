@@ -1,15 +1,7 @@
 import React from "react";
 import styles from "./SkillsBlockContent.module.css";
-import expressIcon from "../../assets/images/logoIcons/expressIcon.png";
-import nodeJSLogo from "../../assets/images/logoIcons/nodejsLogo.jpeg";
-import cSharpLogo from "../../assets/images/logoIcons/cSharpLogo.jpeg";
-import nextJSIcon from "../../assets/images/logoIcons/nextJSIcon.png";
-import phpLogo from "../../assets/images/logoIcons/phpLogo.png";
-import mongoDBIcon from "../../assets/images/logoIcons/mongoDBIcon.jpeg";
-import mySQLIcon from "../../assets/images/logoIcons/mySQLIcon.png";
+
 import SQLIcon from "../../assets/images/logoIcons/sqlIcon.jpeg";
-import FirestoreIcon from "../../assets/images/logoIcons/fireStoreIcon.png";
-import DynamoDBIcon from "../../assets/images/logoIcons/dynamoDBIcon.png";
 
 const BackEnd = () => {
   return (
@@ -17,32 +9,66 @@ const BackEnd = () => {
       <h3 className={styles.containerBlockHeading}>BackEnd</h3>
       <ul>
         <li>
-          <img src={expressIcon} alt="Express Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+            alt="Express Logo"
+          />
           Express
         </li>
         <li>
-          <img src={nodeJSLogo} alt="NodeJS Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+            alt="NodeJS Logo"
+          />
           NodeJS
         </li>
         <li>
-          <img src={nextJSIcon} alt="NextJS Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+            alt="NextJS Logo"
+          />
           NextJS
         </li>
         <li>
-          {" "}
-          <img src={cSharpLogo} alt="c# Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+            alt="PostgreSQL logo"
+          />
+          PostgreSQL
+        </li>
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-plain.svg"
+            alt="Apache logo"
+          />
+          Apache
+        </li>
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+            alt="c# Logo"
+          />
           C#
         </li>
         <li>
-          <img src={phpLogo} alt="php Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+            alt="php Logo"
+          />
           PHP
         </li>
         <li>
-          <img src={mongoDBIcon} alt="mongoDB Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+            alt="mongoDB Logo"
+          />
           MongoDB
         </li>
         <li>
-          <img src={mySQLIcon} alt="mySQL Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            alt="mySQL Logo"
+          />
           MySQL
         </li>
         <li>
@@ -51,14 +77,18 @@ const BackEnd = () => {
           SQL
         </li>
         <li>
-          {" "}
-          <img src={FirestoreIcon} alt="Firestore Logo" />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+            alt="Firestore Logo"
+          />
           Firestore
         </li>
         <li>
-          {" "}
-          <img src={DynamoDBIcon} alt="DynamoDB Logo" />
-          DynamoDB
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+            alt="AWS Logo"
+          />
+          DynamoDB + RDS
         </li>
       </ul>
     </div>

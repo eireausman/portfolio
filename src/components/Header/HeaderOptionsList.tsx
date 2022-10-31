@@ -15,10 +15,18 @@ const HeaderOptionsList = () => {
     ease: "easeOut",
   };
 
-  console.log(menuState);
+  const keyAction = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (e.key === "Enter") setMenuHoverState(!menuHoverState);
+  };
 
   return (
-    <div className={styles.headerOptionsListContainer}>
+    <div
+      tabIndex={0}
+      className={styles.headerOptionsListContainer}
+      onKeyUp={(e) => {
+        keyAction(e);
+      }}
+    >
       <h3
         className={styles.headerOptionsContactLink}
         onClick={() => {

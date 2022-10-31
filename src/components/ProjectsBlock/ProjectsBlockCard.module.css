@@ -1,0 +1,71 @@
+.containerBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  padding: 0.5rem;
+  color: black;
+  background-image: linear-gradient(180deg, #e0dde394 0%, #93159e00 35%);
+  border-radius: 1em;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.title::before {
+  content: "";
+  width: 1px;
+  height: 48px;
+  background: rgb(248, 247, 247, 0.5);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.descript {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-top: solid 1px rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  position: relative;
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.descript::before {
+  content: "";
+  width: 1px;
+  height: 60px;
+  background: rgb(248, 247, 247, 0.5);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.outBoundLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.containerBlock img {
+  border-radius: 0.5em;
+
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  padding: 0.2em;
+}
+
+.buttonOutbound {
+  background-color: white;
+  border-radius: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}

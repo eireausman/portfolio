@@ -1,6 +1,6 @@
 import React from "react";
 import BackEnd from "./BackEnd";
-import Exposures from "./Exposures";
+import Tools from "./Tools";
 import FrontEnd from "./FrontEnd";
 import styles from "./SkillsBlockContainer.module.css";
 
@@ -11,7 +11,7 @@ const SkillsBlockContainer = () => {
       <section className={styles.skillsBlockContainer}>
         <FrontEnd />
         <BackEnd />
-        <Exposures />
+        <Tools />
       </section>
     </>
   );
