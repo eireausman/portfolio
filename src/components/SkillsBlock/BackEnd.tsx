@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./SkillsBlockContent.module.css";
-
-import SQLIcon from "../../assets/images/logoIcons/sqlIcon.jpeg";
+import { HiOutlineDatabase } from "react-icons/hi";
 
 const BackEnd = () => {
   return (
@@ -22,13 +21,7 @@ const BackEnd = () => {
           />
           NodeJS
         </li>
-        <li>
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
-            alt="NextJS Logo"
-          />
-          NextJS
-        </li>
+
         <li>
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
@@ -36,13 +29,7 @@ const BackEnd = () => {
           />
           PostgreSQL
         </li>
-        <li>
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-plain.svg"
-            alt="Apache logo"
-          />
-          Apache
-        </li>
+
         <li>
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
@@ -72,8 +59,7 @@ const BackEnd = () => {
           MySQL
         </li>
         <li>
-          {" "}
-          <img src={SQLIcon} alt="SQL Logo" />
+          <HiOutlineDatabase size={"2em"} />
           SQL
         </li>
         <li>
@@ -89,6 +75,17 @@ const BackEnd = () => {
             alt="AWS Logo"
           />
           DynamoDB + RDS
+        </li>
+        <li>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+          Linux
+        </li>
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-plain.svg"
+            alt="Apache logo"
+          />
+          Apache
         </li>
       </ul>
     </div>

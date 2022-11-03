@@ -1,7 +1,9 @@
 import React from "react";
+import DRLogo from "../../assets/images/DRLogo.png";
+import styles from "./HeaderBar.module.css";
 
 const Logo = () => {
-  return <h3>LogoLeft</h3>;
+  return <img src={DRLogo} alt="Site Logo" className={styles.siteLogo} />;
 };
 
 export default Logo;

@@ -1,19 +1,18 @@
 import React from "react";
 import AboutMe from "./AboutMe";
 import styles from "./IntroBlock.module.css";
-import NameIntro from "./NameIntro";
-import UnderNameImage from "./UnderNameBlock";
+import NameIntro from "../NameIntro/NameIntro";
+import UnderNameImage from "./UnderNameImage";
 
-const MainBlock = () => {
+const IntroBlock = () => {
   return (
-    <section className={styles.mainBlockContainer}>
-      <NameIntro />
-      <div className={styles.mainBlockContainerUnderName}>
+    <>
+      <section className={styles.mainBlockContainer}>
         <UnderNameImage />
         <AboutMe />
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
-export default MainBlock;
+export default IntroBlock;

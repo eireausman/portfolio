@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import styles from "./ProjectsBlockContainer.module.css";
 import wealthToolImg from "../../assets/images/wealthTool.png";
+import youAreHereImg from "../../assets/images/youAreHere.png";
+import toDoList from "../../assets/images/toDoList.png";
+
+const thisSite = {
+  id: 1,
+  title: "This Portfolio site",
+  descript:
+    "A singe page app to showcase development examples and provide contact details.",
+  projectImg: youAreHereImg,
+  gitHubAddress: "https://github.com/eireausman/portfolio",
+  projectURL: "",
+};
 
 const wealthToolCard = {
+  id: 2,
   title: "Net Wealth Tracker",
   descript:
     "A tool to manage your whole net wealth, including multi-currency assets and multiple global markets.",
@@ -13,9 +26,11 @@ const wealthToolCard = {
 };
 
 const toDoListCard = {
+  id: 3,
   title: "To Do List",
-  descript: "A classic skills project: To Do List",
-  projectImg: wealthToolImg,
+  descript:
+    "A to do list application using MongoDB and  password authentication.",
+  projectImg: toDoList,
   gitHubAddress: "https://github.com/eireausman/wealth-tool",
   projectURL: "https://eireausman-todolist.herokuapp.com/",
 };
@@ -23,11 +38,11 @@ const toDoListCard = {
 const ProjectsBlockContainer = () => {
   return (
     <>
-      <h1>Projects</h1>
+      <h1 className={styles.headingText}>Example Projects</h1>
       <section className={styles.projectsBlockContainer}>
-        <ProjectCard props={wealthToolCard}></ProjectCard>
-        <ProjectCard props={wealthToolCard}></ProjectCard>
-        <ProjectCard props={wealthToolCard}></ProjectCard>
+        <ProjectCard props={thisSite} />
+        <ProjectCard props={wealthToolCard} />
+        <ProjectCard props={toDoListCard} />
       </section>
     </>
   );

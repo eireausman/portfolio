@@ -6,11 +6,13 @@
   gap: 1.5rem;
   padding: 0rem 1rem 0rem 1rem;
   margin-top: 2rem;
-  min-width: 350px;
+  min-width: 310px;
   text-align: center;
 }
 
 .headingText {
+  text-decoration: underline;
+  padding: 1.5em 1em 0.5em 1em;
   text-align: center;
   display: block;
 }

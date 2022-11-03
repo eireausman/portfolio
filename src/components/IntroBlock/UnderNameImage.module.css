@@ -1,0 +1,28 @@
+.underNameImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1em solid #343443;
+  transition: all 0.3s;
+}
+
+@media only screen and (max-width: 1050px) {
+  .underNameImage {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .underNameImage {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .underNameImage {
+    width: 150px;
+    height: 150px;
+  }
+}

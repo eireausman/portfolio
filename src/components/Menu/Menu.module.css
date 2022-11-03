@@ -1,6 +1,7 @@
 .menuContainer {
-  position: fixed;
-  opacity: 0;
+  position: absolute;
+  transform: translate(200, 100);
+  opacity: 1;
   background-color: #e3eaf1;
   color: rgb(0, 0, 0);
   border-radius: 5px;
@@ -22,4 +23,15 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.menuContainer li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0em 0em 0.4em 0em;
+}
+
+.dropDownMenuLogos {
+  height: 15px;
 }

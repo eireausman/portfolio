@@ -11,7 +11,7 @@ const HeaderOptionsList = () => {
 
   const transitionValues = {
     duration: 0.8,
-    yoyo: Infinity,
+    yoyo: 5,
     ease: "easeOut",
   };
 

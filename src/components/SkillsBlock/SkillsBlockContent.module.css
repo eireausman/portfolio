@@ -6,15 +6,13 @@
   align-items: center;
   min-width: 200px;
   max-width: 600px;
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 1em;
-  background-color: transparent;
   border: 1px solid rgba(249, 243, 243, 0.2);
 }
 
 .containerBlockHeading {
   min-width: 200px;
-  color: white;
 }
 
 .containerBlock ul {
@@ -24,9 +22,9 @@
   flex-grow: 1;
   justify-content: center;
   list-style: none;
-  padding: 1em;
+  padding: 0;
   gap: 1em;
-  margin: 0em 0em 0em 1em;
+  /* margin: 0em 0em 0em 1em; */
   border-radius: 1em;
 }
 
@@ -39,6 +37,7 @@
   padding: 0.3em;
 }
 
-.containerBlock img {
+.containerBlock img,
+.containerBlockImg {
   height: 2em;
 }

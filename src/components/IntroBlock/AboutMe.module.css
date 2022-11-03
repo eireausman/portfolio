@@ -1,4 +1,11 @@
-.AboutMeTextContainer {
+.AboutMeList {
   padding: 2em;
-  min-width: 350px;
+  transition: all 0.3s;
+  min-width: 200px;
+  max-width: 450px;
+}
+
+.AboutMeList li {
+  list-style-type: "\1F680";
+  padding: 0em 0em 0.5em 0.5em;
 }

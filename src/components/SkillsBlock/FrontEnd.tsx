@@ -22,6 +22,13 @@ const FrontEnd = () => {
         </li>
         <li>
           <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+            alt="NextJS Logo"
+          />
+          NextJS
+        </li>
+        <li>
+          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
             alt="Javascript Logo"
           />

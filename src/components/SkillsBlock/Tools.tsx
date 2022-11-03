@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./SkillsBlockContent.module.css";
+import { AiOutlineApi } from "react-icons/ai";
 
 const Tools = () => {
   return (
@@ -13,7 +14,10 @@ const Tools = () => {
           />
           GitHub
         </li>
-        <li>APIs</li>
+        <li>
+          <AiOutlineApi size={"2em"} />
+          APIs
+        </li>
         <li>
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
