@@ -14,7 +14,7 @@ const Menu: React.FC<MenuProps> = ({ setMenuHoverState }) => {
 
   return (
     <motion.div
-      animate={{ y: 120, x: -20, opacity: 1 }}
+      animate={{ y: 85, x: -8, opacity: 1 }}
       transition={{ ease: "easeOut", duration: 0.2 }}
       className={styles.menuContainer}
     >

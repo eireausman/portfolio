@@ -10,10 +10,10 @@ const NameIntro = () => {
 
   return (
     <>
-      <section className={styles.nameIntroContainer}>
+      <section className={`${styles.nameIntroContainer} `}>
         <h1
           ref={fullName}
-          className={`${styles.headingText}  ${styles.indentHeading}`}
+          className={`${styles.headingText}  ${styles.indentHeading} `}
         >
           Darren Reilly
         </h1>

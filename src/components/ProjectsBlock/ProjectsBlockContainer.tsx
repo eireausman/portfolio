@@ -31,7 +31,7 @@ const toDoListCard = {
   descript:
     "A to do list application using MongoDB and  password authentication.",
   projectImg: toDoList,
-  gitHubAddress: "https://github.com/eireausman/wealth-tool",
+  gitHubAddress: "https://github.com/eireausman/todolist-client",
   projectURL: "https://eireausman-todolist.herokuapp.com/",
 };
 

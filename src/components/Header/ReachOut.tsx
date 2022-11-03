@@ -1,11 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import wavingHand from "../../assets/images/wavingHand.png";
-import styles from "./HeaderOptionsList.module.css";
+import styles from "./ReachOut.module.css";
 import { motion } from "framer-motion";
 import useSetMenuState from "./useSetMenuState";
 import Menu from "../Menu/Menu";
 
-const HeaderOptionsList = () => {
+const ReachOut = () => {
   const [menuHoverState, setMenuHoverState] = useState<boolean>(false);
   const menuState = useSetMenuState(menuHoverState);
 
@@ -54,4 +54,4 @@ const HeaderOptionsList = () => {
   );
 };
 
-export default HeaderOptionsList;
+export default ReachOut;

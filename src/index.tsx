@@ -9,6 +9,7 @@ import "./index.css";
 import ParticlesBackground from "./ParticlesBackground";
 import NameIntro from "./components/NameIntro/NameIntro";
 import ScrollDownMessage from "./components/NameIntro/ScrollDownMessage";
+import ReachOut from "./components/Header/ReachOut";
 
 // var app = document.getElementById("app");
 

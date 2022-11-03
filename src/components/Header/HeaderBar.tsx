@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import Logo from "./Logo";
-import HeaderOptionsList from "./HeaderOptionsList";
+import LogoName from "./LogoName";
+import ReachOut from "./ReachOut";
 import styles from "./HeaderBar.module.css";
 import useCheckIfElementAtWindowTop from "../../HooksShared/useuseCheckIfElementAtWindowTop";
 
@@ -17,8 +17,8 @@ const HomepageHeader = () => {
           : `${styles.container} ${styles.containerSticky}  mainBG`
       }
     >
-      <Logo />
-      <HeaderOptionsList />
+      {isAtTop === true && <LogoName />}
+      {isAtTop === true && <ReachOut />}
     </section>
   );
 };
