@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d3ed0aee.css",
-    "main.js": "/portfolio/static/js/main.abee273b.js",
-    "static/media/profilePicture.png": "/portfolio/static/media/profilePicture.28363b7cda1e24e2a6d8.png",
-    "static/media/wealthTool.png": "/portfolio/static/media/wealthTool.4af496a267757d343d75.png",
-    "static/media/toDoList.png": "/portfolio/static/media/toDoList.77e448d86993a1ec1200.png",
-    "static/media/youAreHere.png": "/portfolio/static/media/youAreHere.3e106039aa961b65f22c.png",
-    "index.html": "/portfolio/index.html",
-    "static/media/scrollDownArrow.svg": "/portfolio/static/media/scrollDownArrow.0f21b6fcde2e8de6c7bef4d98aafea7f.svg",
-    "main.d3ed0aee.css.map": "/portfolio/static/css/main.d3ed0aee.css.map",
-    "main.abee273b.js.map": "/portfolio/static/js/main.abee273b.js.map"
+    "main.css": "/www.darrenreilly.com/static/css/main.d3ed0aee.css",
+    "main.js": "/www.darrenreilly.com/static/js/main.da0fd3c6.js",
+    "static/media/profilePicture.png": "/www.darrenreilly.com/static/media/profilePicture.28363b7cda1e24e2a6d8.png",
+    "static/media/wealthTool.png": "/www.darrenreilly.com/static/media/wealthTool.4af496a267757d343d75.png",
+    "static/media/toDoList.png": "/www.darrenreilly.com/static/media/toDoList.77e448d86993a1ec1200.png",
+    "static/media/youAreHere.png": "/www.darrenreilly.com/static/media/youAreHere.3e106039aa961b65f22c.png",
+    "index.html": "/www.darrenreilly.com/index.html",
+    "static/media/scrollDownArrow.svg": "/www.darrenreilly.com/static/media/scrollDownArrow.0f21b6fcde2e8de6c7bef4d98aafea7f.svg",
+    "main.d3ed0aee.css.map": "/www.darrenreilly.com/static/css/main.d3ed0aee.css.map",
+    "main.da0fd3c6.js.map": "/www.darrenreilly.com/static/js/main.da0fd3c6.js.map"
   },
   "entrypoints": [
     "static/css/main.d3ed0aee.css",
-    "static/js/main.abee273b.js"
+    "static/js/main.da0fd3c6.js"
   ]
 }
