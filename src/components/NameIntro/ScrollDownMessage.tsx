@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 import arrowDown from "../../assets/images/scrollDownArrow.svg";
 
 const ScrollDownMessage = () => {
+  const clickScrollMessage = () => {
+    window.scrollBy(0, window.innerHeight);
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
@@ -16,6 +20,7 @@ const ScrollDownMessage = () => {
         delay: 1,
       }}
       className={styles.scrollDownMessageContainer}
+      onClick={clickScrollMessage}
     >
       <div>SCROLL DOWN</div>
 

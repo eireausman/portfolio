@@ -11,17 +11,13 @@ const useCheckIfElementAtWindowTop = (
     const navDimens = nav.getBoundingClientRect();
     if (navDimens.top <= 0) {
       setareWeAtTheTop(true);
-      console.log(nav, true);
-    } else {
-      setareWeAtTheTop(false);
-      console.log(nav, false);
     }
   };
 
   useLayoutEffect(() => {
     window.addEventListener("scroll", checkScrollPosition);
     return () => window.removeEventListener("scroll", checkScrollPosition);
-  }, [element]);
+  }, []);
 
   return areWeAtTheTop;
 };

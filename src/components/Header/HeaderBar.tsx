@@ -17,8 +17,12 @@ const HomepageHeader = () => {
           : `${styles.container} ${styles.containerSticky}  mainBG`
       }
     >
-      {isAtTop === true && <LogoName />}
-      {isAtTop === true && <ReachOut />}
+      {isAtTop === true && (
+        <>
+          <LogoName />
+          <ReachOut />
+        </>
+      )}
     </section>
   );
 };
