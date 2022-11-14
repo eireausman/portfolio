@@ -1,5 +1,5 @@
 import React from "react";
-import profilePicture from "../../assets/images/profilePicture.png";
+import profilePicture from "../../assets/images/ProfilePicLinkedIn.png";
 import styles from "./UnderNameImage.module.css";
 
 const UnderNameImage = () => {
