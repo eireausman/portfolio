@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3ed0aee.css",
-    "main.js": "/static/js/main.d1d9a8fc.js",
-    "static/media/profilePicture.png": "/static/media/profilePicture.28363b7cda1e24e2a6d8.png",
+    "main.css": "/static/css/main.f874aa8d.css",
+    "main.js": "/static/js/main.2848ac0d.js",
+    "static/media/ProfilePicLinkedIn.png": "/static/media/ProfilePicLinkedIn.c4d37d81507db441f754.png",
     "static/media/wealthTool.png": "/static/media/wealthTool.4af496a267757d343d75.png",
     "static/media/toDoList.png": "/static/media/toDoList.77e448d86993a1ec1200.png",
     "static/media/youAreHere.png": "/static/media/youAreHere.3e106039aa961b65f22c.png",
     "index.html": "/index.html",
     "static/media/scrollDownArrow.svg": "/static/media/scrollDownArrow.0f21b6fcde2e8de6c7bef4d98aafea7f.svg",
-    "main.d3ed0aee.css.map": "/static/css/main.d3ed0aee.css.map",
-    "main.d1d9a8fc.js.map": "/static/js/main.d1d9a8fc.js.map"
+    "main.f874aa8d.css.map": "/static/css/main.f874aa8d.css.map",
+    "main.2848ac0d.js.map": "/static/js/main.2848ac0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3ed0aee.css",
-    "static/js/main.d1d9a8fc.js"
+    "static/css/main.f874aa8d.css",
+    "static/js/main.2848ac0d.js"
   ]
 }
